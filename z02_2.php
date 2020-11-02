@@ -16,59 +16,71 @@ else:
 endif;
 
 echo 'Переменная N = ' .$n .'<br>'; 
-echo 'Результат: ';
+echo 'Результат: '.'<br>';
+
+$mmax=15;
 
 switch ($n) {
+        
+  case 0:
+    uv(0,$mmax);          
+    break;
   case 1:
-    echo $n;
+    uv(1,$mmax);          
     break;
   case 2:
-    echo $n;
+    uv(2,$mmax);          
     break;
   case 3:
-    echo $n;
+    uv(3,$mmax);          
     break;
   case 4:
-    echo $n;
+    uv(4,$mmax);          
     break;
   case 5:
-    echo $n;
+    uv(5,$mmax);          
     break;
-    case 6:
-      echo $n;
+   case 6:
+    uv(6,$mmax);          
+    break;
+   case 7:
+    uv(7,$mmax);          
       break;
-    case 7:
-      echo $n;
+   case 8:
+    uv(8,$mmax);          
       break;
-    case 8:
-      echo $n;
+   case 9:
+    uv(9,$mmax);          
       break;
-    case 9:
-      echo $n;
-      break;
-    case 10:
-      echo $n;
-      break;
-    case 11:
-        echo $n;
+   case 10:
+    uv(10,$mmax);          
+    break;
+   case 11:
+    uv(11,$mmax);          
         break;
-      case 12:
-        echo $n;
+   case 12:
+    uv(12,$mmax);          
         break;
-      case 13:
-        echo $n;
+   case 13:
+    uv(13,$mmax);          
         break;
-      case 14:
-        echo $n;
+   case 14:
+    uv(14,$mmax);          
         break;
-      case 15:
-        echo $n;
+   case 15:
+    uv(15,$mmax);          
         break;
           
   default:
     echo 'Введите число от 0 до 15';
     break;
 }
+
+  function uv($p,$mmax) {
+    if($p>=$mmax+1) return;  
+    echo  $p .'<br>';
+    uv($p +1,$mmax);     // это вызываем на 1 меньше 
+  }  
 
 
 ?>
