@@ -1,0 +1,9 @@
+1) Установил laravel
+
+2) Добавил route : Hello1 world
+   Добавил route : Hello2 $name
+   Добавил route, как в методичке : Hello3,4
+   
+3) Отправил в github коммит:
+
+https://github.com/TsvetkovA817/php3/commit/fda1cda7e3128662771a802914cdf7fe2fd6e8b7
