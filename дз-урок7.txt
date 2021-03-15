@@ -1,0 +1,25 @@
+﻿Сделано:
+
+1) Валидация через класс Request для
+1.1) Категории : Формы Добавления, Редактирования  
+     CategoryCreateRequest.php
+     CategoryEditRequest.php
+1.2) Новости : Формы Добавления, Редактирования  
+     NewsCreateRequest.php
+     NewsEditRequest.php
+1.3) Запрос данных: Формы Добавления, Редактирования  
+     ZdtCreateRequest.php
+     ZdtEditRequest.php
+
+2) Для администратора: Редактирование Запросов данных
+
+3) Русификация сообщений об ошибках, Синонимы переменных в файле validation.php
+4) Вывод сообщений об ошибках рядом с полями в формах 
+    add.blade.php , update.blade.php
+
+Коммит:
+https://github.com/TsvetkovA817/php3/commit/84444cad3dc18ebc431ccc1b3639de1c6880eb85
+
+
+
+
